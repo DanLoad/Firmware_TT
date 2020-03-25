@@ -93,8 +93,8 @@ p.infom-home-page {
 }
 
 .popup-content {
-    width: 60%;
-    /* height: 200px; */
+    width: 90%;
+    height: 95%;
     position: absolute;
     z-index: 2;
     top: 0px;
