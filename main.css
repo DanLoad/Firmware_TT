@@ -53,20 +53,18 @@ button.btn.btn-info {
 botom-tt{
   padding: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon-home-page.infom-home-page {
+    font-size: 45px;
+    text-align: center;
+    color: #008064;
+}
+p.infom-home-page {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #69eedb;
+    border-radius: 8px;
+    color: #69eedb;
+}
 .popup-checkbox, .popup {
   display: none;
 }
