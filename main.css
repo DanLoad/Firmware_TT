@@ -1,0 +1,47 @@
+body{
+  background-color: #21242B!important;
+}
+div{
+  color: #fff;
+}
+.name-tt{
+  text-align: center;
+  color: #fff;
+
+}
+b.b-tt {
+    color: #008064;
+}
+h5.title-tt {
+    text-align: center;
+    color: #82f5db;
+    padding-top: 15px;
+}
+hr.hr-tt {
+    border-top: 1px dashed #82f5db;
+}
+.temp-align {
+    text-align: center;
+}
+i.fa {
+    color: #008064;
+    font-size: 30px;
+}
+b.inot-tt{
+  color: #008064;
+  font-size: 30px;
+}
+.temp_color {
+    color: #FFFFFF;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 50px;
+}
+button.btn.btn-info {
+    background-color: #008064;
+    color: #FFFFFF;
+    padding: 5px 25px;
+    margin: 15px 0 0 25px
+}
+botom-tt{
+  padding: 25px;
+}
