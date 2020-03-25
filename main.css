@@ -42,7 +42,7 @@ b.inot-tt{
 .temp_color {
     color: #FFFFFF;
     font-family: 'Montserrat' , sans-serif;
-    font-size: 50px;
+    font-size: 45px;
 }
 button.btn.btn-info {
     background-color: #008064;
@@ -156,4 +156,7 @@ input.int {
 }
 button.btn.btn-warning {
     margin: 15px 0 0 0;
+}
+img {
+    margin: 0px 0 10px 0;
 }
