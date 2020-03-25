@@ -111,8 +111,9 @@ botom-tt{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     /* padding: 38px 0; */
+    overflow: auto;
 }
- 
+
 .popup-checkbox:checked + .popup {
   opacity: 1;
   display: block;
