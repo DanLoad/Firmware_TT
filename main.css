@@ -1,3 +1,11 @@
+/*
+File Name: Firmware_TT
+Plugin URI: http://shipilovfamily.com/ada-team
+Description: Файл создан для того чтоб модефецировать прошивку под Датчик давления.
+Author: Shipilov Anaioliy
+Author URI: http://shipilovfamily.com/
+Version: 2.0.1 */
+
 body{
   background-color: #21242B!important;
 }
@@ -44,4 +52,84 @@ button.btn.btn-info {
 }
 botom-tt{
   padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup-checkbox, .popup {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.popup:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5;
+}
+
+.popup-content {
+    width: 60%;
+    /* height: 200px; */
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #333;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* padding: 38px 0; */
+}
+
+.popup-checkbox:checked + .popup {
+  opacity: 1;
+  display: block;
+}
+
+.popup-shower {
+  cursor: pointer;
+
+}
+
+.popup-shower:hover {
+  color: #000;
+
+}
+
+.popup-closer {
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
 }
