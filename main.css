@@ -111,7 +111,7 @@ botom-tt{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     /* padding: 38px 0; */
-    overflow: auto; 
+    overflow: auto;
 }
 
 .popup-checkbox:checked + .popup {
@@ -142,5 +142,8 @@ label.popup-shower {
     /* margin: 15px 0 0 25px; */
 }
 input.num-3 {
-    width: 50px;
+    width: 45px;
+}
+hr.hr-ss {
+    border-top: 1px dashed #82f5db2e;
 }
